@@ -27,7 +27,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.reddit.com/robin/"
+        "https://www.reddit.com/robin*"
       ],
       "js": [
         "src/inject/inject.js"
