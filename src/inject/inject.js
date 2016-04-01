@@ -9,7 +9,7 @@ chrome.extension.sendMessage({}, function(response) {
 		timer = setInterval(function(){
 			document.querySelectorAll('[value="INCREASE"]')[0].click();
 			console.log("voted");
-		}, 1000);
+		}, 30000);
 		// ----------------------------------------------------------
 	}
 	}, 10);
